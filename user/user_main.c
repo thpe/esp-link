@@ -7,7 +7,7 @@
 #include "mqtt_client.h"
 extern MQTT_Client mqttClient;
 
-#define SCALE_STATUS_INTERVAL (6000)
+#define SCALE_STATUS_INTERVAL (20*60*1000)
 
 static ETSTimer uarttimer;
 
